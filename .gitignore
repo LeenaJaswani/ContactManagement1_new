@@ -1,5 +1,5 @@
 # Ignore .env file
-D:/Django/ContactManagement/Backend/contact_manager_backend
+D:/Django/ContactManagement/Backend/contact_manager_backend/.env
 # Ignore other files or directories as needed
 /node_modules
 /db.sqlite3
