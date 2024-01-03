@@ -27,7 +27,7 @@ DEBUG = True
 APP_NAME = os.environ.get("CONTACT_MANAGEMENT")
 
 
-ALLOWED_HOSTS = ['f{APP_NAME}.fly.dev',"localhost","127.0.0.1"]
+ALLOWED_HOSTS = ["localhost","127.0.0.1",'lj2.pythonanywhere.com']
 ALLOWED_APPS = [
     'corsheaders',
     # ...
@@ -61,7 +61,9 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
     "http://127.0.0.1:8000",
-     'http://localhost:8000'
+     'http://localhost:8000',
+    'https://lj2.pythonanywhere.com/contacts/' ,
+    'https://contactmanagement-seven.vercel.app'
     # The origin of your Angular application
 ]
 # CORS_ORIGIN_ALLOW_ALL=True
