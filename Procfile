@@ -1,1 +1,1 @@
-web: gunicorn contact_manager_backend.wsgi
+eb: gunicorn 'contact_manager_backend.wsgi:application'
