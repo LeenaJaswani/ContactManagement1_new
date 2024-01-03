@@ -1,6 +1,9 @@
 from django.db import models
 
 from django.core.validators import RegexValidator
+from faker import Faker
+
+fake = Faker()
 # Create your models here.
 class UserInfo(models.Model):
 	
@@ -12,8 +15,5 @@ class UserInfo(models.Model):
 	HomeAddress=models.TextField(default='',blank=True)
 	Birthday=models.DateField(default='',blank=True,null=True)
 	Nickname=models.CharField(max_length=50,blank=True,null=True)
-
 	def __str__(self):
 		return self.Name
-	
-    
