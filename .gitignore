@@ -1,0 +1,7 @@
+.env
+__pycache__/
+sqlite3
+*/__pycache__/*
+*/migrations/*
+!*/__init__.py
+Procfile
