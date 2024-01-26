@@ -10,7 +10,7 @@ class UserInfoSerializer(serializers.ModelSerializer):
 	
 
 
-class ContactListSerializer(serializers.ModelSerializer):
-    class Meta:
-        model =  UserInfo
-        fields = ('id','Name','EmailAddress','ContactNumber','Nickname')
+# class ContactListSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model =  UserInfo
+#         fields = ('id','Name','EmailAddress','ContactNumber','Nickname')
